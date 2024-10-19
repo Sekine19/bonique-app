@@ -1,0 +1,83 @@
+.blogs {
+  padding-bottom: 100px;
+}
+.blogs .container .inner .blog-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.blogs .container .inner .blog-title h2 {
+  font-size: 35px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  color: #333;
+}
+.blogs .container .inner .blog-title p {
+  font-size: 18px;
+  color: #333;
+}
+.blogs .container .inner .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.blogs .container .inner .cards .card {
+  border: 1px solid #DBDBDB;
+}
+.blogs .container .inner .cards .card .blog-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: inline-block;
+}
+.blogs .container .inner .cards .card .blog-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s;
+}
+.blogs .container .inner .cards .card .blog-image:hover img {
+  transform: scale(1.2);
+}
+.blogs .container .inner .cards .card .content {
+  max-width: 400px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.blogs .container .inner .cards .card .content h4 a {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #333;
+  transition: 0.3s;
+}
+.blogs .container .inner .cards .card .content h4 a:hover {
+  color: #D52121;
+}
+.blogs .container .inner .cards .card .content p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 200;
+  font-size: 18px;
+  color: #333;
+}
+.blogs .container .inner .cards .card .content .read-more a {
+  color: #333;
+  font-size: 22px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.blogs .container .inner .cards .card .content .read-more a:hover {
+  color: #D52121;
+}/*# sourceMappingURL=blogs.css.map */

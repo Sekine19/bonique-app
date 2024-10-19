@@ -1,0 +1,106 @@
+.footer {
+    .top {
+        padding: 100px 0;
+        background-color: #F8F8F8;
+
+        .container {
+            .inner {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .links {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    gap: 20px;
+                    font-size: 18px;
+                    color: #595B59;
+
+                    li {
+                        a {
+                            color: #595B59;
+                            transition: 0.3s;
+
+                            i {
+                                margin-right: 10px;
+                            }
+
+                            &:hover {
+                                bottom: 0;
+                                transform: translateX(100%);
+                                color: #D52121;
+                            }
+                        }
+
+
+                    }
+                }
+
+                .subscribe {
+                    max-width: 400px;
+                    height: 200px;
+
+                    h2 {
+                        font-size: 40px;
+                        font-weight: 200;
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        font-size: 20px;
+                        color: #575757;
+                        margin-bottom: 20px;
+                    }
+
+                    .content {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        padding: 0 5px 10px 5px;
+                        border-bottom: 1px solid #575757;
+
+                        input {
+                            font-size: 20px;
+                            border: none;
+                            outline: none;
+                            background-color: #f8f8f8;
+                        }
+
+                        i {
+                            color: #575757;
+                            font-size: 25px;
+                            transition: 0.3s;
+
+                            &:hover {
+                                color: #D52121;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .bottom {
+        padding: 20px 0;
+
+        .container {
+            .inner {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .copyright {
+                    font-size: 17px;
+
+                    i {
+                        color: #D52121;
+                    }
+                }
+            }
+        }
+    }
+}

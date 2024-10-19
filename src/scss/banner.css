@@ -1,0 +1,35 @@
+.banner-card {
+  margin: 50px 0;
+}
+.banner-card .container .inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.banner-card .container .inner .card {
+  position: relative;
+}
+.banner-card .container .inner .card a img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.banner-card .container .inner .card .banner-text {
+  position: absolute;
+  top: 20%;
+  padding: 50px;
+}
+.banner-card .container .inner .card .banner-text h3 {
+  font-size: 40px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  color: #111111;
+}
+.banner-card .container .inner .card .banner-text p {
+  width: 250px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #575757;
+}/*# sourceMappingURL=banner.css.map */

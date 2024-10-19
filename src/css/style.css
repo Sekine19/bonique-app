@@ -1,0 +1,23 @@
+@import "/src/scss/header.css";
+@import "/src/scss/parfums.css";
+@import "/src/scss/deals.css";
+@import "/src/scss/arrivals.css";
+@import "/src/scss/banner.css";
+@import "/src/scss/client.css";
+@import "/src/scss/blogs.css";
+@import "/src/scss/shipping.css";
+@import "/src/scss/footer.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  padding: 0 50px;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

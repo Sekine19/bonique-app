@@ -1,0 +1,46 @@
+.parfums {
+    padding: 50px 0;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 100px;
+
+    .container {
+        .inner {
+            .cards {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .card {
+                    a {
+                        img {
+                            object-fit: cover;
+                        }
+                    }
+
+                    .category {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 10px;
+
+                        h3 {
+                            a {
+                                color: #575757;
+                                transition: 0.3s;
+
+                                &:hover {
+                                    color: #D52121;
+                                }
+                            }
+                        }
+
+                        span {
+                            color: #575757;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

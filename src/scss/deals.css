@@ -1,0 +1,162 @@
+.bonique-deals {
+  margin-bottom: 100px;
+}
+.bonique-deals .container .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+}
+.bonique-deals .container .inner .left {
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  max-width: 400px;
+  height: 620px;
+}
+.bonique-deals .container .inner .left:hover .image a .img {
+  opacity: 0;
+}
+.bonique-deals .container .inner .left:hover .image a .hover-img {
+  opacity: 1;
+}
+.bonique-deals .container .inner .left:hover .image .icons {
+  opacity: 1;
+}
+.bonique-deals .container .inner .left:hover .product-content .price-box {
+  opacity: 0;
+}
+.bonique-deals .container .inner .left:hover .product-content .add-card {
+  opacity: 1;
+  transform: translateY(-100%);
+}
+.bonique-deals .container .inner .left .image {
+  max-width: 377px;
+  height: 377px;
+  position: relative;
+}
+.bonique-deals .container .inner .left .image a img {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s;
+}
+.bonique-deals .container .inner .left .image a .hover-img {
+  top: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+}
+.bonique-deals .container .inner .left .image .label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.bonique-deals .container .inner .left .image .label span {
+  background-color: #D52121;
+  color: #fff;
+  padding: 5px 10px;
+}
+.bonique-deals .container .inner .left .image .icons {
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+.bonique-deals .container .inner .left .image .icons a {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bonique-deals .container .inner .left .image .icons a i {
+  font-size: 22px;
+  color: #111111;
+  background-color: #e5e5e5;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bonique-deals .container .inner .left .product-content .title {
+  margin-bottom: 10px;
+}
+.bonique-deals .container .inner .left .product-content .title a {
+  font-size: 23px;
+  color: #575757;
+}
+.bonique-deals .container .inner .left .product-content .add-card {
+  margin-bottom: 10px;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s;
+}
+.bonique-deals .container .inner .left .product-content .add-card a {
+  color: #000;
+  font-size: 20px;
+}
+.bonique-deals .container .inner .left .product-content .price-box {
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+.bonique-deals .container .inner .left .product-content .price-box s {
+  font-size: 18px;
+  font-weight: 600;
+}
+.bonique-deals .container .inner .left .product-content .price-box span {
+  color: #D52121;
+  font-size: 17px;
+  font-weight: 600;
+}
+.bonique-deals .container .inner .left .product-content .timing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.bonique-deals .container .inner .left .product-content .timing .single {
+  color: #575757;
+}
+.bonique-deals .container .inner .left .product-content .timing .single .top {
+  font-size: 50px;
+}
+.bonique-deals .container .inner .left .product-content .timing .single .bottom {
+  font-size: 20px;
+}
+.bonique-deals .container .inner .right {
+  max-width: 700px;
+}
+.bonique-deals .container .inner .right .right-content {
+  margin-bottom: 20px;
+}
+.bonique-deals .container .inner .right .right-content h3 {
+  font-size: 27px;
+  color: #D52121;
+  margin-bottom: 25px;
+  letter-spacing: 6px;
+}
+.bonique-deals .container .inner .right .right-content h2 {
+  font-size: 40px;
+  letter-spacing: 6px;
+  line-height: 44px;
+  max-width: 500px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.bonique-deals .container .inner .right .right-content a {
+  font-size: 23px;
+  font-weight: 700;
+  color: #D52121;
+}
+.bonique-deals .container .inner .right .right-image {
+  width: 100%;
+}
+.bonique-deals .container .inner .right .right-image a img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=deals.css.map */

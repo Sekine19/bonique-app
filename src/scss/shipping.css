@@ -1,0 +1,45 @@
+.shipping {
+  margin-bottom: 100px;
+}
+.shipping .container .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shipping .container .inner .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.shipping .container .inner .card:hover .icon i {
+  background-color: #111111;
+  color: #fff;
+}
+.shipping .container .inner .card .icon i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  padding: 40px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #CCC;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.shipping .container .inner .card .content h3 {
+  margin-bottom: 10px;
+}
+.shipping .container .inner .card .content h3 a {
+  color: #111111;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.shipping .container .inner .card .content h3 a:hover {
+  color: #D52121;
+}
+.shipping .container .inner .card .content span {
+  font-size: 18px;
+  color: #575757;
+}/*# sourceMappingURL=shipping.css.map */
